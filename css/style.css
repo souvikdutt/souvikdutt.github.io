@@ -12,9 +12,9 @@ a{
 #main {
     width: 100%;
     height: 100vh;
-    background-image: url("../image/piku5.png");
+    background-image: url("../image/portfolio-pic.jpg");
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-size: 450px;
     background-position: right bottom;
     box-sizing: border-box;
     background-color: #edf1fd;
@@ -40,6 +40,7 @@ nav{
 }
 .menu {
     display: flex;
+    margin-right: 10%;
 }
 .menu li a {
     padding: 10px 15px;
@@ -63,7 +64,7 @@ nav{
 }
 .name{
     font-family: calibri;
-    width: 500px;
+    width: 650px;
     position: absolute;
     left: 20%;
     top: 50%;
@@ -88,10 +89,13 @@ nav{
     align-items: center;
     background-color: #292929;
     color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: transform(0.9s);
 }
 .cv-btn:hover{
     background-color: #131313;
     transition: all ease 0.5s;
+    transform: scale(1.05);
 }
 .social {
     position: absolute;
