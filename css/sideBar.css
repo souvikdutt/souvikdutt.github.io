@@ -1,0 +1,82 @@
+#sidebar{
+    box-sizing: border-box;
+    position: fixed;
+    width: 50px;
+    margin-top: 150px;
+    transition: all 0.3s linear;
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+    z-index: 5;
+}
+#sidebar li{
+    height: 60px;
+    position:relative;
+}
+#sidebar li a{
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 60px;
+    padding-left:20%;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+    transition: all .3s linear;
+}
+#sidebar li:nth-child(1) a{
+    background: #4267B2;
+}
+#sidebar li:nth-child(2) a{
+    background: #1DA1F2;
+}
+#sidebar li:nth-child(3) a{
+    background: #E1306C;
+}
+#sidebar li:nth-child(4) a{
+    background: #2867B2;
+}
+#sidebar li:nth-child(5) a{
+    background: #333;
+}
+#sidebar li a i{
+    position:absolute;
+    top: 17px;
+    left: 17px;
+    font-size: 27px;
+}
+ #sidebar ul li a span{
+    display: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#sidebar a:hover {
+    width: 160px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.5);
+}
+#sidebar ul li:hover a span{
+    padding-left: 30%;
+    display: block;
+}
+
+@media(max-width:480px){
+    #sidebar{
+        width: 40px;
+    }
+    #sidebar li{
+        height: 55px;
+    }
+    #sidebar li a i{
+        left: 15px;
+        font-size: 20px;
+    }
+    #sidebar li a {
+        font-size: 12px;
+    }
+    #sidebar a:hover {
+        width: 130px;
+    }
+    #sidebar ul li:hover a span{
+        padding-left: 35%;
+    }
+}

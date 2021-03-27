@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-image: url("../image/contact.jpg");
+}
+nav{
+    background-color: #f4f7ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: calibri;
+    padding: 10px 50px;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0.05);
+    z-index: 1;
+}
+.menu {
+    display: flex;
+    margin-right: 10%;
+}
+.menu li a {
+    padding: 10px 15px;
+    color: #6c706c;
+    font-size: 12px;
+}
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #292929;
+    font-family: poppins;
+}
+.lang{
+    color: #292929;
+}
+.menu li a:hover, .active{
+    background-color: #292929;
+    color: #ffffff !important;
+    font-weight: 700;
+    transition: all ease 0.4s;
+}
+#container{
+    background: url("../docs/1236480.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#contactdiv{
+    border-radius: 10px;
+    padding: 40px;
+    top: 150px;
+    left: 12%;
+    height: 240px;
+    width: 60%;
+    position: relative;
+    background: white;
+    transition: all 0.5s;
+    opacity: 0.9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#contactinfo{
+    font-family: "Recursive", serif;
+    float: left;
+}
+
+#contactinfo #box{
+    display: flex;
+    padding: 10px;
+}
+
+#contactinfo #box #icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#contactinfo #box #text{
+    line-height: 25px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+#contactinfo #box #text h3{
+    color:rgb(0, 145, 255);
+}
+
+#contactform{
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: black;
+    float: right;
+}
+
+#contactform input,textarea{
+    background: black;
+
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
+
+    height: 30px;
+    width: 300px;
+
+    border-radius: 5px;
+    border-style: none;
+    border-bottom: 2px solid white;
+}
+
+#contactform #message{
+    height: 50px;
+}
+
+#contactform #submit{
+    color: white;
+    background: rgba(23,137,223);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+#footer{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+
+
+@media(max-width:1024px){
+    
+    #contactdiv{
+        width: 80%;
+        padding: 20px;
+    }    
+    #contactinfo #box #icon{
+        height: 40px;
+        width: 40px;
+    }
+    #contactinfo #box #text{
+        font-size: 14px;
+    }    
+    #contactform{ 
+        width: 250px;
+    }
+    #contactform input,textarea{
+        font-size: 12px;
+        width: 260px;
+    }  
+
+}
+@media(max-width:768px){
+
+    #container{
+        padding-bottom: 60px;
+    }
+    
+    #contactdiv{
+        padding: 10px;
+        left: 26%;
+        width: 300px;
+        height: 480px;
+    }
+    #contactinfo{
+        float: none;
+    }
+  
+    #contactinfo #box #icon{
+        height: 40px;
+        width: 40px;
+    }
+    #contactinfo #box #text{
+        font-size: 14px;
+    }    
+    #contactform{
+        float: none;
+        width: 250px;
+    }
+    #contactform input,textarea{
+        font-size: 12px;
+        width: 200px;
+    }  
+
+}
+@media(max-width:480px){
+    
+    #contactdiv{
+        padding: 10px;
+        left: 24%;
+        width: 200px;
+        height: 510px;
+    }
+    #contactinfo #box #icon{
+        height: 20px;
+        width: 20px;
+    }
+    #contactinfo #box #text{
+        font-size: 10px;
+    }    
+    #contactform{
+        width: 150px;
+    }
+    #contactform input,textarea{
+        font-size: 10px;
+        width: 140px;
+    }  
+
+}
