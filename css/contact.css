@@ -5,10 +5,10 @@
     text-decoration: none;
 }
 body{
-    background-image: url("../image/contact.jpg");
+    background-image: url("../image/contact-us-background.jpg");
 }
 nav{
-    background-color: #f4f7ff;
+    background-color: dodgerblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,17 +31,17 @@ nav{
 }
 .menu li a {
     padding: 10px 15px;
-    color: #6c706c;
+    color: white;
     font-size: 12px;
 }
 .logo {
     font-size: 25px;
     font-weight: bold;
-    color: #292929;
+    color: white;
     font-family: poppins;
 }
 .lang{
-    color: #292929;
+    color: #ffffff;
 }
 .menu li a:hover, .active{
     background-color: #292929;
@@ -50,7 +50,7 @@ nav{
     transition: all ease 0.4s;
 }
 #container{
-    background: url("../docs/1236480.jpg") no-repeat center;
+    /* background: url("../docs/1236480.jpg") no-repeat center; */
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -66,7 +66,7 @@ nav{
     position: relative;
     background: white;
     transition: all 0.5s;
-    opacity: 0.9;
+    opacity: 0.8;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
