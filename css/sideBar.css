@@ -21,28 +21,28 @@
     border-bottom: 1px solid rgba(0,0,0,.4);
     transition: all .3s linear;
 }
-#sidebar li:nth-child(1) a{
+#sidebar li:nth-child(1) a {
     background: #4267B2;
 }
-#sidebar li:nth-child(2) a{
+#sidebar li:nth-child(2) a {
     background: #1DA1F2;
 }
-#sidebar li:nth-child(3) a{
+#sidebar li:nth-child(3) a {
     background: #E1306C;
 }
-#sidebar li:nth-child(4) a{
+#sidebar li:nth-child(4) a {
     background: #2867B2;
 }
-#sidebar li:nth-child(5) a{
+#sidebar li:nth-child(5) a {
     background: #333;
 }
-#sidebar li a i{
+#sidebar li a i {
     position:absolute;
     top: 17px;
     left: 17px;
     font-size: 27px;
 }
- #sidebar ul li a span{
+ #sidebar ul li a span {
     display: none;
     font-weight: bold;
     letter-spacing: 1px;
