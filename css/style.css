@@ -12,9 +12,9 @@ a{
 #main {
     width: 100%;
     height: 100vh;
-    background-image: url("../image/portfolio-pic.jpg");
+    background-image: url("../image/animePiku.png");
     background-repeat: no-repeat;
-    background-size: 450px;
+    background-size: 650px;
     background-position: right bottom;
     box-sizing: border-box;
     background-color: #edf1fd;
