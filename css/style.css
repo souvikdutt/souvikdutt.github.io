@@ -14,7 +14,7 @@ a{
     height: 100vh;
     background-image: url("../image/animePiku.png");
     background-repeat: no-repeat;
-    background-size: 650px;
+    background-size: 42%;
     background-position: right bottom;
     box-sizing: border-box;
     background-color: #edf1fd;
